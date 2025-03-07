@@ -1,0 +1,6 @@
+data_prep/air_pol/data/*.csv filter=lfs diff=lfs merge=lfs -text
+data_prep/air_pol/data/*.rds filter=lfs diff=lfs merge=lfs -text
+data_prep/air_pol/data/*.RData filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.rds filter=lfs diff=lfs merge=lfs -text
+*.RData filter=lfs diff=lfs merge=lfs -text
